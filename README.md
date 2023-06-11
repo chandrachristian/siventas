@@ -12,6 +12,7 @@ Project Inventaris Barang Sederhana.
   - [Installation](#installation)
   - [Contributing](#contributing)
   - [License](#license)
+  - [Account](#account)
 
 ## Features
 
@@ -44,6 +45,24 @@ git clone https://github.com/chandrachristian/siventas
 ```
 php artisan serve
 ```
+
+## Account
+```
+Administrator
+
+username : admin
+password : admin
+
+```
+
+```
+Member
+
+username : kamila
+password : 12345
+
+```
+
 
 ## Contributing
 
