@@ -34,7 +34,7 @@ Project Inventaris Barang Sederhana.
 1. Clone repo ini.
 
 ```
-git clone https://github.com/defrindr/inventaris-barang-SLKSSekolah.git
+git clone https://github.com/chandrachristian/siventas
 ```
 
 2. Buat database baru, kemudian import [database ini](#database).
