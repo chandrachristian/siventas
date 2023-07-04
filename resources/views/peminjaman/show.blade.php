@@ -31,7 +31,7 @@
                         <tr>
                             <td>Tanggal Kembali</td>
                             <td>:</td>
-                            <td>@if($peminjaman->tanggal_kembali == null) Dikembalikan @else Belum Dikembalikan @endif</td>
+                            <td>@if($peminjaman->tanggal_kembali == 1) Dikembalikan @else Belum Dikembalikan @endif</td>
                         </tr>
                         <tr>
                             <td>Status Peminjaman</td>

@@ -39,7 +39,7 @@
                         <td>{{ count($row->detailPinjam)." Item" }}</td>
                         <td>{{ $row->tanggal_pinjam }}</td>
                         <td>@if($row->tanggal_kembali == null) Belum Dikembalikan @else {{ $row->tanggal_kembali }} @endif </td>
-                        <td>@if($row->status_peminjaman == 1) Dikembalikan @else Belum Dikembalikan @endif</td>
+                        <td>@if($row->status_peminjaman == 1) Belum  Dikembalikan @else Dikembalikan @endif</td>
                         <td>{{ $row->created_at }}</td>
                         <td>{{ $row->updated_at }}</td>
 	                    <td>
