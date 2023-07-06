@@ -1,3 +1,4 @@
+
 @extends('layouts.admin_template')
 @section('title')
     Detail Pinjam

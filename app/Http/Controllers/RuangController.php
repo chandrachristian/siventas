@@ -107,8 +107,8 @@ class RuangController extends Controller
 
 
         $this->validate($request, [
-                "nama_ruang" => "required|unique:ruang,nama_ruang",
-                "kode_ruang" => "required|unique:ruang,kode_ruang",
+                "nama_ruang" => "required",
+                "kode_ruang" => "required",
                 "keterangan" => "required",
             ], $this->messages);
 

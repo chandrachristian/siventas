@@ -52,7 +52,7 @@ class PetugasController extends Controller
         DB::beginTransaction();
 
         $this->validate($request,[
-                "username" => "required|min:8|max:32",
+                "username" => "required|min:3|max:32",
                 "password" => "required|min:8",
                 "id_level" => "required",
                 "nama_petugas" => "required"
